@@ -4,24 +4,28 @@ Aplicativo Pokedex para aprendizado de Node Javascript com enfase em consumo de 
 
 ## Instalação
 
-1. Clonar o repositório:
-2. Instalar as dependências:
+Clonar o repositório e instalar as dependências:
 
-`sudo apt-get update`
-`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash`
-`sudo nvm install 16.20.2`
-`sudo npm install -g http-server`
+```bash
+sudo apt-get update
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+sudo nvm install 16.20.2
+sudo npm install -g http-server
+```
 
-3. Verificar a instalação do node e do npm:
+Verificar a instalação do node e do npm:
+```bash
+node -v && npm -v
+```
 
-`node -v && npm -v`
+Iniciar o servidor:
+```bash
+http-server
+```
 
-4. Iniciar o servidor:
+Acessar o navegador:
+```bash
+http://localhost:8080
+```
 
-`http-server`
-
-5. Acessar o navegador:
-
-`http://localhost:8080`
-
-6. Navegar nas páginas de Pokemons
+Navegar nas páginas de Pokemons.
